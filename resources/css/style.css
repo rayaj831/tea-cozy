@@ -2,12 +2,14 @@ body {
 	margin: 0;
 	background-color: black;
 	font-family: Helvetica, sans-serif;
+	font-size: 22px;
 }
 
 /* Fixed header always on top */
 header {
 	display: flex;
-	border: 1px solid seashell;
+	background-color: black;
+	border-bottom: 1px solid seashell;
 	position: fixed;
 	z-index: 5;
 	width: 100%;
@@ -23,7 +25,6 @@ nav {
 
 a {
 	color: seashell;
-	font-size: 22px;
 }
 
 /* logo styling */
@@ -37,5 +38,27 @@ a {
 	max-height: 50px;
 }
 
+.main-content {
+	display: flex;
+	justify-content: center;
+	padding-top: 69px;
+	width: 100%;
+	height: 100%;
+}
 
+#mission {
+	display: flex;
+	background-image: url("../images/img-mission-background.jpg");
+	color: seashell;
+	height: 700px;
+	max-width: 1200px;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+}
 
+.statement {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+}

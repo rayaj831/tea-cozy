@@ -38,12 +38,16 @@ a {
 	max-height: 50px;
 }
 
-.main-content {
+#main-content {
 	display: flex;
 	justify-content: center;
+	align-items: space-between;
+	flex-wrap: wrap;
 	padding-top: 69px;
-	width: 100%;
+	width: 1200px;
 	height: 100%;
+	margin: 0 auto;
+	opacity: 0.9;
 }
 
 #mission {
@@ -61,4 +65,37 @@ a {
 	background-color: black;
 	width: 100%;
 	text-align: center;
+}
+
+#featured {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	color: seashell;
+	width: 1000px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+#featured .teas {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#featured .item {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	padding: 10px 15px;
+}
+
+#featured h4 {
+	margin: 15px auto;
+}
+
+#featured img {
+	height: 200px;
+	width: 300px;
 }

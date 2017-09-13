@@ -1,8 +1,10 @@
 body {
 	margin: 0;
+	height: 100%;
 	background-color: black;
 	font-family: Helvetica, sans-serif;
 	font-size: 22px;
+	text-align: center;
 }
 
 /* Fixed header always on top */
@@ -38,6 +40,7 @@ a {
 	max-height: 50px;
 }
 
+/* Styling for main content sections */
 #main-content {
 	display: flex;
 	justify-content: center;
@@ -55,7 +58,6 @@ a {
 	background-image: url("../images/img-mission-background.jpg");
 	color: seashell;
 	height: 700px;
-	max-width: 1200px;
 	flex-grow: 1;
 	align-items: center;
 	justify-content: center;
@@ -67,13 +69,13 @@ a {
 	text-align: center;
 }
 
+/* Tea of the month section styling */
 #featured {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	color: seashell;
 	width: 1000px;
-	text-align: center;
 	padding-top: 40px;
 }
 
@@ -98,4 +100,36 @@ a {
 #featured img {
 	height: 200px;
 	width: 300px;
+}
+
+/* Locations Section Styling */
+#location {
+	color: seashell;
+	background-image: url("../images/img-locations-background.jpg");
+	height: 500px;
+	width: 1200px;
+	padding-top: 40px;
+}
+
+#location .store-locations {
+	display: flex;
+	justify-content: center;
+}
+
+#location .store {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	opacity: 1;
+	height: 300px;
+	width: 300px;
+	margin: 15px 20px;
+}
+
+
+
+footer {
+	color: seashell;
+	text-align: left;
+	margin-left: 20px;
 }

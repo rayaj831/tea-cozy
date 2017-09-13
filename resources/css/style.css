@@ -27,6 +27,7 @@ nav {
 
 a {
 	color: seashell;
+	font-weight: normal;
 }
 
 /* logo styling */
@@ -71,12 +72,11 @@ a {
 
 /* Tea of the month section styling */
 #featured {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
 	color: seashell;
+	height: 700px;
 	width: 1000px;
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 
@@ -108,7 +108,11 @@ a {
 	background-image: url("../images/img-locations-background.jpg");
 	height: 500px;
 	width: 1200px;
-	padding-top: 40px;
+	padding-top: 70px;
+}
+
+#location h2 {
+	margin: 5px;
 }
 
 #location .store-locations {
@@ -123,10 +127,17 @@ a {
 	opacity: 1;
 	height: 300px;
 	width: 300px;
-	margin: 15px 20px;
+	margin: 5px 20px;
 }
 
+#contact {
+	color: seashell;
+	height: 200px;
+}
 
+#contact .name {
+	padding: 3px;
+}
 
 footer {
 	color: seashell;
